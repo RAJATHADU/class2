@@ -2,7 +2,7 @@ import React,{useState} from "react";
 
 //state=internal variable of react, number,string,boolean,object,array
 
-function Ex1(props) {
+const Ex2=(props)=>{
     //useState=>react hook
     //const[state,handler]=useState(initial value)
     //name of the state is invisible in redux tools because it is mutable
@@ -44,5 +44,6 @@ function Ex1(props) {
     )
 }
 
-export default Ex1
+export default Ex2
+//functional,const arrow,const local = useState
 
